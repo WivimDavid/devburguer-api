@@ -11,10 +11,16 @@
   "description": "Devburguer API.",
   "url": "https://github.com/wivimdavid",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "eslint": "^9.9.0",
     "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2",
     "sucrase": "^3.35.0"
   }
 }
